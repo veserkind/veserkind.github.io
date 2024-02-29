@@ -1,0 +1,105 @@
+body {
+    background: url(lazypattern.png), black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14pt;
+    color: white;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    margin-top: .5em;
+    margin-bottom: .5em;
+}
+
+ul {
+    list-style-type: none;
+    margin: .5em;
+}
+
+#navigation {
+    height: auto;
+    width: 230px;
+    position: fixed;
+    right: 100px;
+    top: 100px;
+}
+
+#navigation a:link { color: black;}
+#navigation a:visited { color: black;}
+#navigation a:hover { color: black;}
+#navigation a:active { color: black;}
+
+.button{
+    background-color: white;
+    border: 2px lightgray solid;
+    padding: 10px 5px;
+    text-align: center;
+    display: block;
+    width: 215px;
+    border-radius: 2px;
+    margin: 3px;
+}
+
+.button:hover{
+    background-color: gray;
+}
+
+#container {
+    border: solid 2px rgb(10, 7, 7);
+    width: 60%;
+    margin: 50px;
+    box-sizing: border-box;
+    padding: 10px;
+    background: black;
+    border-radius: 5px;
+}
+
+.header {
+    font-size: 18pt;
+    font-weight: bold;
+    width: 50%;
+}
+
+.info{
+    min-height: 95vh;
+    margin: 10px;
+    padding-top: 10px;
+}
+
+#intro{
+    padding: 100px;
+}
+
+#pushover{
+    padding-left: 100px;
+}
+
+.skillsholder{
+    margin: 5px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.projectdetails {
+    height: 300px;
+    width: 100%;
+    border: solid 1px;
+    margin: 10px;
+}
+
+.projectthumbnail{
+    height: 100%;
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+footer {
+    text-align: center;
+    margin: 50px;
+}
