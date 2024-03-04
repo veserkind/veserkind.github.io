@@ -57,6 +57,7 @@ ul {
     padding: 10px;
     background: black;
     border-radius: 5px;
+    scroll-behavior: smooth;
 }
 
 .header {
@@ -66,7 +67,7 @@ ul {
 }
 
 .info{
-    min-height: 95vh;
+    min-height: 85vh;
     margin: 10px;
     padding-top: 10px;
 }
@@ -86,18 +87,44 @@ ul {
 }
 
 .projectdetails {
-    height: 300px;
+    height: 25vh;
     width: 100%;
     border: solid 1px;
     margin: 10px;
+    position: relative;
+    display: flex;
 }
 
 .projectthumbnail{
     height: 100%;
-    width: 50%;
+    //width: 50%;
     float: left;
     margin-right: 10px;
 }
+
+.projectwords {
+    height: 97%;
+    width: 100%;
+    position: relative;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    padding: 2px;
+}
+
+#gallery {
+    margin: 10px 40px;
+}
+
+    #gallery img {
+        height: 200px;
+        transition: .5s;
+        padding: 5px;
+    }
+
+        #gallery img:hover {
+            filter: drop-shadow(4px 4px 6px gray);
+            transform: scale(1.1);
+        }
 
 footer {
     text-align: center;
